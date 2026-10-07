@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.lamport.tla.toolbox.tool.tlc.modelCheck">
+    <stringAttribute key="configurationName" value="model_multiple"/>
+    <intAttribute key="distributedFPSetCount" value="0"/>
+    <intAttribute key="distributedNodesCount" value="1"/>
+    <stringAttribute key="distributedTLC" value="off"/>
+    <intAttribute key="fpIndex" value="2"/>
+    <intAttribute key="maxHeapSize" value="25"/>
+    <stringAttribute key="modelBehaviorInit" value=""/>
+    <stringAttribute key="modelBehaviorNext" value=""/>
+    <stringAttribute key="modelBehaviorSpec" value="Spec"/>
+    <intAttribute key="modelBehaviorSpecType" value="1"/>
+    <stringAttribute key="modelBehaviorVars" value="outerDoorOpen, outerDoorLocked, trapDoorOpen, ramExtended, trashInTop, trashCompressed, trashUncompressed, trashCapacity, trapDestroyed, userTrash, binCommand, binSensor, scans, permissions, serverRequests, serverResponses, truckCommand, pc, perm, selectedBin, req"/>
+    <stringAttribute key="modelComments" value=""/>
+    <booleanAttribute key="modelCorrectnessCheckDeadlock" value="true"/>
+    <listAttribute key="modelCorrectnessInvariants">
+        <listEntry value="1TypeOK"/>
+        <listEntry value="1MessagesOK"/>
+    </listAttribute>
+    <listAttribute key="modelCorrectnessProperties"/>
+    <intAttribute key="modelEditorOpenTabs" value="8"/>
+    <stringAttribute key="modelExpressionEval" value=""/>
+    <listAttribute key="modelParameterConstants">
+        <listEntry value="NumBins;;2;0;0"/>
+        <listEntry value="NumUsers;;1;0;0"/>
+        <listEntry value="NumTrucks;;1;0;0"/>
+        <listEntry value="MaxCapacity;;3;0;0"/>
+        <listEntry value="MaxUserTrash;;2;0;0"/>
+    </listAttribute>
+    <intAttribute key="modelVersion" value="20191005"/>
+    <stringAttribute key="result.mail.address" value=""/>
+    <stringAttribute key="specName" value="trash_bins"/>
+</launchConfiguration>

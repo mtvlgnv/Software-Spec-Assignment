@@ -1,0 +1,7 @@
+# TLA+ Toolbox generated output (recreated on every TLC run)
+trash_bins.toolbox/*/
+!trash_bins.toolbox/.settings/
+trash_bins.toolbox/*_SnapShot_*.launch
+
+# macOS
+.DS_Store

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>trash_bins</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>toolbox.builder.TLAParserBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>toolbox.natures.TLANature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>trash_data.tla</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/trash_data.tla</locationURI>
+		</link>
+		<link>
+			<name>trash_multiple.tla</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/trash_multiple.tla</locationURI>
+		</link>
+		<link>
+			<name>trash_single.tla</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/trash_single.tla</locationURI>
+		</link>
+		<link>
+			<name>trash_bins.tla</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/trash_bins.tla</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
